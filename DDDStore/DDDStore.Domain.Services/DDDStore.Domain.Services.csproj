@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\DDDStore.Domain.Core\DDDStore.Domain.Core.csproj" />
+    <ProjectReference Include="..\DDDStore.Domain\DDDStore.Domain.csproj" />
   </ItemGroup>
 
 </Project>

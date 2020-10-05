@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDStore.Domain", "DDDStore.Domain\DDDStore.Domain.csproj", "{6BD24FC3-6438-4972-983E-68046FA999BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDStore.Domain", "DDDStore.Domain\DDDStore.Domain.csproj", "{6BD24FC3-6438-4972-983E-68046FA999BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDStore.Domain.Core", "DDDStore.Domain.Core\DDDStore.Domain.Core.csproj", "{E8ACE57C-08A3-4C80-AB4D-584399F1529A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDStore.Domain.Core", "DDDStore.Domain.Core\DDDStore.Domain.Core.csproj", "{E8ACE57C-08A3-4C80-AB4D-584399F1529A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDStore.Domain.Services", "DDDStore.Domain.Services\DDDStore.Domain.Services.csproj", "{48D483BD-0CFD-4792-87DD-CE4BF3605786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDStore.Domain.Services", "DDDStore.Domain.Services\DDDStore.Domain.Services.csproj", "{48D483BD-0CFD-4792-87DD-CE4BF3605786}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDDStore.Domain", "DDDStore.Domain", "{51D00F7B-33F1-439F-B268-136DC0EC3B1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BD24FC3-6438-4972-983E-68046FA999BC} = {51D00F7B-33F1-439F-B268-136DC0EC3B1B}
+		{E8ACE57C-08A3-4C80-AB4D-584399F1529A} = {51D00F7B-33F1-439F-B268-136DC0EC3B1B}
+		{48D483BD-0CFD-4792-87DD-CE4BF3605786} = {51D00F7B-33F1-439F-B268-136DC0EC3B1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA68E92F-A587-4C37-B59B-DC3FBA22BEF7}
