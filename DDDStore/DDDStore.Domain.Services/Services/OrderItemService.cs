@@ -12,7 +12,7 @@ namespace DDDStore.Domain.Services.Services
         public readonly IOrderItemRepository _orderItemRepository;
         public OrderItemService(IOrderItemRepository orderItemRepository) : base(orderItemRepository)
         {
-            _orderItemRepository = orderItemRepository
+            _orderItemRepository = orderItemRepository;
         }
     }
 }
